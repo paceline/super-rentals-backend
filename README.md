@@ -1,6 +1,6 @@
 # super-rentals-backend
 
-This is a simple MEEN-style (MongoDB, Express, Ember, Node) backend for the Ember tutorial [super-rentals](https://guides.emberjs.com/release/tutorial), which only includes a mock backend.
+This is a simple MEEN-style (MongoDB, Express, Ember, Node) backend for the Ember tutorial [super-rentals](https://guides.emberjs.com/release/tutorial), which only includes a mock backend. Example running at https://super-rentals-fullexample.herokuapp.com/.
 
 ## Usage
 

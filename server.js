@@ -18,7 +18,7 @@ var registry = new API.ResourceTypeRegistry({
       self: "/api/{type}/{id}.json"
     }
   });
-const opts = { host: '127.0.0.1:3000' };
+const opts = { host: process.env.HOSTNAME };
 var Front = new API.httpStrategies.Express(new API.controllers.API(registry), null, opts);
 
 // Start express
